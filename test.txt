@@ -1,0 +1,11 @@
+# self explanatory graph format using toml format (but named .txt since file suffixes other than .txt .py and .pdf aren't allowed/graded)
+
+start_node = "Cat"
+end_node = "Home"
+[graph]
+Cat = {C = {cost = 1, distraction = 0}, B = {cost = 3, distraction = 2}}
+C = {Cat = {cost = 1, distraction = 0}, D = {cost = 2, distraction = 3}}
+B = {Cat = {cost = 3, distraction = 2}, D = {cost = 4, distraction = 5}, E = {cost = 2, distraction = 1}}
+D = {C = {cost = 2, distraction = 3}, B = {cost = 4, distraction = 5}, Home = {cost = 3, distraction = 4}}
+E = {B = {cost = 2, distraction = 1}, Home = {cost = 5, distraction = 0}}
+Home = {D = {cost = 3, distraction = 4}, E = {cost = 5, distraction = 0}}
