@@ -12,5 +12,4 @@ The graph is traversed using two different approaches: recursive and greedy. Whe
 * Start the program "multi-objective-optimization.py" in the usual manner for the respective operating system, from the interpreter shell or in an IDE, e.g., IDLE.
 
 ## Additional Notes
-* For further details on the documentation / user manual, refer to section 1. Analysis.
 * No bugs are known.
